@@ -1558,15 +1558,15 @@ section,
 # Clients Section
 --------------------------------------------------------------*/
 .clients .swiper-slide img {
-  opacity: 0.5;
+  /* opacity: 0.5; */
   transition: 0.3s;
-  filter: grayscale(100);
+  /* filter: grayscale(100); */
 }
 
-.clients .swiper-slide img:hover {
+/* .clients .swiper-slide img:hover {
   filter: none;
   opacity: 1;
-}
+} */
 
 .clients .swiper-wrapper {
   height: auto;
@@ -1764,6 +1764,12 @@ section,
 
 .services .service-card .read-more:hover i {
   transform: translateX(5px);
+}
+.rounded-icon {
+  width: 80px; /* Adjust size as needed */
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 /*--------------------------------------------------------------
@@ -2334,4 +2340,50 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+}
+
+
+/* Team */
+
+.profile-card {
+  background-color: #0d83fd; /* Dark background */
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+  max-width: 300px;
+  height: auto;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid white;
+}
+
+.profile-name {
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  margin-top: 15px;
+}
+
+.profile-title {
+  font-size: 14px;
+  color: #b0b3b8;
+  margin-bottom: 15px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: #b0b3b8;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: white;
 }

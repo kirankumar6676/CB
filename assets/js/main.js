@@ -156,7 +156,7 @@
   //  countdown
   
   function updateCountdown() {
-    const targetDate = new Date("March 7, 2025 00:00:00").getTime();
+    const targetDate = new Date("March 8, 2025 09:30:00").getTime();
     const now = new Date().getTime();
     const difference = targetDate - now;
 
